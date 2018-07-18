@@ -12,9 +12,9 @@ import {Text,View} from "react-native"
 //}
 
 const Header = () => {
- const {textStyle} = styles
+ const {textStyle, viewStyle} = styles
             return(
-              <View>
+              <View style={viewStyle}>
                 <Text style={textStyle}>
                    Albums !
                 </Text>
@@ -25,6 +25,9 @@ const Header = () => {
 const styles = {
     textStyle:{
         fontSize:40,
+    },
+    viewStyle:{
+        backgroundColor:"#F8F8F8"
     }
 }
 
