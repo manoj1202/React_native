@@ -1,5 +1,5 @@
 import React from "react"
-import {Text} from "react-native"
+import {Text,View} from "react-native"
 
 //class Header extends React.Component{
 //    render(){
@@ -14,10 +14,11 @@ import {Text} from "react-native"
 const Header = () => {
  const {textStyle} = styles
             return(
-
+              <View>
                 <Text style={textStyle}>
                    Albums !
                 </Text>
+              </View>
             )
 }
 
