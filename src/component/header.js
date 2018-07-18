@@ -30,7 +30,7 @@ const styles = {
         backgroundColor: "#F8F8F8",
         justifyContent: "center",
         alignItems: "center",
-        heigth : 60,
+        height : 60,
         paddingTop: 15
     }
 }
