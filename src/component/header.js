@@ -24,10 +24,14 @@ const Header = () => {
 
 const styles = {
     textStyle:{
-        fontSize:40,
+        fontSize:20,
     },
     viewStyle:{
-        backgroundColor:"#F8F8F8"
+        backgroundColor: "#F8F8F8",
+        justifyContent: "center",
+        alignItem: "center",
+        heigth : 60,
+        paddingTop: 15
     }
 }
 
