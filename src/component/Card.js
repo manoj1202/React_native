@@ -1,10 +1,10 @@
 import React from "react"
 import {View} from "react-native"
 
-export default function Cards () {
+export default function Cards (props) {
     return(
-        <View>
-            
+        <View style={styles.containerStyle}>
+            <Text>{props.album.title}</Text>
         </View>
     )
 }
@@ -19,6 +19,10 @@ const styles = {
         shadowOffset: {width : 0, height:2},
         shadowOpacity: 0.1,
         shadowRadius: 2,
+        elevation:1,
+        marginLeft:5,
+        maginRight:5,
+        marginTOp:10
 
     }
 }
