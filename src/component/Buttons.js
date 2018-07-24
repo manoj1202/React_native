@@ -5,7 +5,9 @@ const Button =() => {
     const {buttonStyle, textStyle} = styles
     return(
         <TouchableOpacity style={buttonStyle}>
-            <Text style={textStyle}>Click Me!!</Text>
+            <Text style={textStyle}>
+                Click Me!!
+            </Text>
         </TouchableOpacity>
     )
 }
