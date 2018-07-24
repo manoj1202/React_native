@@ -1,10 +1,10 @@
 import React from "react"
 import {View} from "react-native"
 
-export default function Cards (props) {
+export default function Card (props) {
     return(
         <View style={styles.containerStyle}>
-            <Text>{props.album.title}</Text>
+            {props.children}
         </View>
     )
 }
